@@ -19,6 +19,8 @@ const cottagecheese = 0.7;
 console.log(cottagecheese);
 console.log(typeof cottagecheese);
 
+console.log("==================");
+
 let numb = 4;
 console.log(4 + 4);
 console.log(4 - 4);
@@ -77,7 +79,8 @@ console.log(5 * "5");
 console.log(1 == true);
 //false
  console.log(1 === true);
-Comment
+
+ console.log("==================");
 
 const arr = ["lucy","beth", "jayne", "tony"];
 console.log(arr);
@@ -86,6 +89,7 @@ console.log(arr[1]);
 console.log(arr[2]);
 console.log(arr[3]);
 
+console.log("==================");
 let age = 10
 console.log(age);
 
@@ -100,7 +104,7 @@ if (age <= 17) {
     console.log("out of range");
 }
 
-
+console.log("==================");
 let crunch = 1;
 for (let crunch=1; crunch <=100; crunch++) {
     console.log(crunch);
@@ -132,6 +136,7 @@ for (let crunch=1; crunch <=100; crunch++) {
         console.log("george michael");
         }
 }
+console.log("==================");
 
 let munch = 17
 if (munch % 3 ==0 && munch %5 ==0 && munch%2==0) {
@@ -162,7 +167,7 @@ if (munch % 3 ==0 && munch %5 ==0 && munch%2==0) {
     console.log("george michael");
     }
 
-
+    console.log("==================");
  
 
  
