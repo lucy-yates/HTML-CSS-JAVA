@@ -267,3 +267,67 @@ generateCoinChange(940, 500);
 generateCoinChange(1000, 379);
 generateCoinChange(230, 100);
 generateCoinChange(2000, 112);
+
+console.log("==================");
+
+const me = {
+    name: "Lucy ",
+    age: 22,
+    job: "Banking Consultant",
+    hobbies: ["Games", "Music", "Baking"],
+    pets: [{
+        name: "Bandit",
+        species: "Hamster"
+    }],
+    dob: "2001-05-25"
+}
+
+const Patryk = {
+    name: "Patryk",
+    age: 23,
+    job: "Customer Advisor",
+    hobbies: ["Games", "Music", "esports"],
+    pets: [
+        {
+            species: "Dog"
+        }
+    ],
+}
+
+const Mike = {
+    name: "Mike",
+    age: 36,
+    job: "Mortgage Advisor",
+    hobbies: ["Leeds"],
+    pets: [{
+        name: "Luna",
+        species: "Dog"
+    }],
+}
+
+// can put objects in arrays just not like primitives
+const trainers = [me, Mike, Patryk];
+
+
+// can access an objects variables with this syntax object.key
+
+console.log("My name:", me.name);
+
+// loop through the array
+// trainers[i] finds the trainer OBJECT at that index
+// can access the 'attributes' of that object using the object.key syntax
+/// i.e. trainers[i].name finds the NAME of the trainer OBJECT at that index
+for (let i = 0; i < trainers.length; i++) {
+    console.log("I:", i, "Trainer:", trainers[i]);
+    console.log("Name:", trainers[i].name);
+}
+
+// Can use the shortcut to avoid having to deal with the index at all
+for (const trainer of trainers) {
+    console.log("Name:", trainer.name);
+}
+
+// Can update a value using the object.key syntax
+// console.log(me);
+// me.age = 30;
+// console.log(me);
