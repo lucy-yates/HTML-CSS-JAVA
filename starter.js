@@ -208,7 +208,7 @@ for (var i = 0; i < nums.length; i++) {
 
 console.log("==================");
 
-const generateCoinChange = (pence,cost) => {
+function generateCoinChange(pence,cost) {
     let tenner = 0;
     let fiver = 0;
     let twopound = 0;
@@ -331,3 +331,56 @@ for (const trainer of trainers) {
 // console.log(me);
 // me.age = 30;
 // console.log(me);
+
+console.log("==================");
+
+function intro(name) {
+    document.write("Hello! My name is " + name);
+}
+
+intro("Jordan");
+
+
+function fizzBuzz(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (num % 3 === 0) {
+        console.log("Fizz");
+    } else if ( num % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(num);
+    }
+    
+}
+
+fizzBuzz(90)
+
+
+
+function sum(num, num2) {
+    return num + num2; // the OUTPUT of this function is num + num2
+}
+
+let add = sum (6,3);
+console.log(add);
+
+
+const s = (s, t) => s * t;
+s(9,5)
+
+
+var greet = function () { 
+    console.log("munch crunch"); 
+}; 
+  
+greet();
+
+var dismiss = () =>  
+    { 
+        console.log("byeeeeeeeeee"); 
+    } 
+      
+    dismiss(); 
+
+    
